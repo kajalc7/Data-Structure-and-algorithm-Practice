@@ -10,7 +10,7 @@ class Solution {
         // code here
         for(int i=0;i<n;i++)
         {
-            for(char j='A';j<='A'+i;j++)
+            for(char j=65;j<=65+i;j++)
             {
                 cout<<j;
             }
